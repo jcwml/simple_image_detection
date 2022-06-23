@@ -17,7 +17,7 @@
     this would leave me with a concise pixelmap with good detection results.
 
     ... only as you can see the lowest deviance per grayscale pixel in the target
-    dataset is 229 which means this won't even work anyway. :'(
+    dataset is 229 which means this won't work on this particular dataset.
 
     but it's a cool idea that might work on something else, like a runescape bot.
 
