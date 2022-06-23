@@ -7,7 +7,7 @@ Then, I would test that pixel map of low deviance pixels against the original im
 
 This would leave me with a concise pixelmap with good detection results.
 
-... only as you can see the lowest deviance per grayscale pixel in the target dataset is 229 which means this won't even work anyway. :'(
+... only as you can see the lowest deviance per grayscale pixel in the target dataset is 229 which means this won't even work on this particular dataset.
 
 But it's a cool idea that might work on something else, like a runescape bot.
 
