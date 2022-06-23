@@ -4,7 +4,7 @@
 /*
 
     the plan was to generate a greyscale pixel map from the RGB sample images
-    and then discard the pixels with a max-min deviance that was too large
+    and then discard the pixels with a large (max-min) deviance that was too large
     so that less pixels needed to be scanned and only the areas of low deviance
     could be focused on.
     
@@ -14,7 +14,7 @@
     until all 255 tolerance values are tested and calculate which tolerance value
     had the best detection on targets and least error on nontargets.
 
-    this would leave me with a concise pixelmap with good detection results.
+    this would leave me with a concise pixel map with good detection results.
 
     ... only as you can see the lowest deviance per grayscale pixel in the target
     dataset is 229 which means this won't work on this particular dataset.
