@@ -11,6 +11,6 @@ This would leave me with a concise pixelmap with good detection results.
 
 But it's a cool idea that might work on something else, like a runescape bot.
 
-The final pixel map could generate C source code calling a pixel_in_tol(x, y, tol) function for each individual pixel that passed the minimum deviance test.
+The final pixel map could generate C source code calling a is_pixel_in_tol(x, y, tol) function for each individual pixel that passed the minimum deviance test.
 
 very efficient, no loops, very compact, ready to deploy.
