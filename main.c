@@ -1,9 +1,6 @@
 /*
---------------------------------------------------
-    James William Fletcher (james@voxdsp.com)
-        October 2021
---------------------------------------------------
-
+    https://github.com/jcwml
+    
     CS:GO PLATINUM
     
     Prereq:
@@ -633,9 +630,9 @@ int main()
     xdo = xdo_new(":0.0");
 
     // set console title
-    Window awin;
-    xdo_get_active_window(xdo, &awin);
-    xdo_set_window_property(xdo, awin, "WM_NAME", "CS:GO PLATINUM");
+    // Window awin;
+    // xdo_get_active_window(xdo, &awin);
+    // xdo_set_window_property(xdo, awin, "WM_NAME", "CS:GO PLATINUM");
 
     // get graphics context
     gc = DefaultGC(d, si);
